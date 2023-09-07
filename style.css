@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-
     margin: 0px;
 }
 
@@ -55,7 +54,7 @@ button {
 }
 
 #hero-text {
-    color: white;
+    color: #F9FAF8;
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
@@ -81,4 +80,39 @@ button {
     font-size: 18px;
     flex: 1 1 0;
     color: #E5E7EB;
+}
+
+#random-info {
+    height: 300px;
+    margin: 0px;
+    padding: 50px 200px;
+}
+
+#random-info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+#random-info-images {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.square {
+    aspect-ratio: 1 / 1;
+    flex: 1 1 0;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.subtext {
+    flex: 1 1 0;
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
 }
