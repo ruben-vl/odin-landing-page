@@ -162,6 +162,7 @@ button {
     align-items: center;
     color: #E5E7EB;
     padding: 5px 25px;
+    border-radius: 10px;
 }
 
 #banner-text-top {
